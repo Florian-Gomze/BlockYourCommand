@@ -17,6 +17,11 @@ public class BlockYourCommand implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player)sender;
 		List<String> list = config.getList("blockedCMDs");
+		if(args.length == 0) {
+			if(p.hasPermission(config.getString("AddPerm")) || p.hasPermission(config.getString("RemovePerm"))) {
+				p.sendMessage("§cPlease use /blockyourcommand <add/remove> <cmd>");
+			}
+		}
 		if(args[0].equalsIgnoreCase("add")) {
 			if(p.hasPermission(config.getString("AddPerm"))) {
 				if(list.contains(args[1])) {
