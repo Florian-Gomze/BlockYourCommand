@@ -30,7 +30,7 @@ public class Config {
 				file.createNewFile();
 				cfg.set("ByPassPerm", "blockyourcmd.bypass");
 				cfg.set("AddPerm", "blockyourcmd.add");
-				cfg.set("RemovePerm", "blockyourcmd.add");
+				cfg.set("RemovePerm", "blockyourcmd.remove");
 				cfg.set("NotAllowed", "&cYou are not allowed to use this command.");
 				blockedCMDs.add("bukkit");
 				blockedCMDs.add("help");
