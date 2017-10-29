@@ -1,2 +1,3 @@
 # BlockYourCommand
-Bukkit Plugin to block your commands
+
+Open-Source Plugin to block a list for your commands.
