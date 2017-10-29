@@ -1,0 +1,7 @@
+name: BlockYourCommand
+version: 1.0
+author: Gomze
+main: de.gomze.blockyourcommand.Main
+commands:
+  blockyourcommand:
+    aliases: [blockyourcmd]
