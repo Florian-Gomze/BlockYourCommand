@@ -1,5 +1,5 @@
 name: BlockYourCommand
-version: 1.0
+version: 1.1
 author: Gomze
 main: de.gomze.blockyourcommand.Main
 commands:
